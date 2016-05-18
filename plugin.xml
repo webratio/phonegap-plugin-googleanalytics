@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.adobe.plugins.GAPlugin"
-    version="2.4.0.1wr">
+    version="2.4.0">
 
     <name>GAPlugin</name>
   <author>Bob Easterday</author>
@@ -46,6 +46,10 @@
 
         <header-file src="src/ios/GAI.h" />
         <header-file src="src/ios/GAIDictionaryBuilder.h" />
+        <header-file src="src/ios/GAIEcommerceFields.h" />
+        <header-file src="src/ios/GAIEcommerceProduct.h" />
+        <header-file src="src/ios/GAIEcommerceProductAction.h" />
+        <header-file src="src/ios/GAIEcommercePromotion.h" />
         <header-file src="src/ios/GAIFields.h" />
         <header-file src="src/ios/GAILogger.h" />
         <header-file src="src/ios/GAITrackedViewController.h" />
